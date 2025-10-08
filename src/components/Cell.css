@@ -1,0 +1,32 @@
+.cell {
+  border: 1px solid #ddd;
+  padding: 0;
+  background-color: white;
+}
+
+.cell--selected {
+  background-color: #d3e0ea;
+}
+
+.cell-input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: white;
+  outline: none;
+}
+
+.cell-content {
+  padding: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+  color: black;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

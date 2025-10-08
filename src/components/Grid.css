@@ -1,0 +1,16 @@
+.grid-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}
+
+.grid-title {
+  margin-bottom: 10px;
+}
+
+.grid-table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: auto;
+  table-layout: fixed;
+}

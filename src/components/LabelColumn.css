@@ -1,0 +1,8 @@
+.label-cell {
+  background-color: #e0f7fa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  user-select: none; /* prevents accidental text selection while dragging */
+}

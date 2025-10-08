@@ -1,0 +1,35 @@
+/* Empty header space for row labels */
+.empty-header {
+  background-color: transparent;
+  border: none;
+  width: 100px;
+}
+
+/* Each header cell */
+.header-cell {
+  background-color: #ffebee;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Cell that holds the Add Column button */
+.add-column-cell {
+  border: none;
+}
+
+/* Button style */
+.add-column-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.add-column-btn:hover {
+  background-color: #555;
+}
